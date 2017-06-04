@@ -1,6 +1,6 @@
 ﻿namespace Av2_Trabalho
 {
-    partial class Form2
+    partial class Tela_Escolha
     {
         /// <summary>
         /// Required designer variable.
@@ -54,6 +54,7 @@
             this.btnProceguir.TabIndex = 1;
             this.btnProceguir.Text = "A diante";
             this.btnProceguir.UseVisualStyleBackColor = true;
+            this.btnProceguir.Click += new System.EventHandler(this.btnProceguir_Click);
             // 
             // rdop1
             // 
@@ -65,6 +66,7 @@
             this.rdop1.TabStop = true;
             this.rdop1.Text = "Nível 1";
             this.rdop1.UseVisualStyleBackColor = true;
+            this.rdop1.CheckedChanged += new System.EventHandler(this.rdop1_CheckedChanged);
             // 
             // rdop2
             // 
@@ -76,6 +78,7 @@
             this.rdop2.TabStop = true;
             this.rdop2.Text = "Nível 2";
             this.rdop2.UseVisualStyleBackColor = true;
+            this.rdop2.CheckedChanged += new System.EventHandler(this.rdop2_CheckedChanged);
             // 
             // rdop3
             // 
@@ -87,6 +90,7 @@
             this.rdop3.TabStop = true;
             this.rdop3.Text = "Nível 3";
             this.rdop3.UseVisualStyleBackColor = true;
+            this.rdop3.CheckedChanged += new System.EventHandler(this.rdop3_CheckedChanged);
             // 
             // rdop4
             // 
@@ -98,6 +102,7 @@
             this.rdop4.TabStop = true;
             this.rdop4.Text = "Nível 4";
             this.rdop4.UseVisualStyleBackColor = true;
+            this.rdop4.CheckedChanged += new System.EventHandler(this.rdop4_CheckedChanged);
             // 
             // rdop5
             // 
@@ -109,8 +114,9 @@
             this.rdop5.TabStop = true;
             this.rdop5.Text = "Nível 5";
             this.rdop5.UseVisualStyleBackColor = true;
+            this.rdop5.CheckedChanged += new System.EventHandler(this.rdop5_CheckedChanged);
             // 
-            // Form2
+            // Tela_Escolha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,7 +128,7 @@
             this.Controls.Add(this.rdop1);
             this.Controls.Add(this.btnProceguir);
             this.Controls.Add(this.btnVoltar);
-            this.Name = "Form2";
+            this.Name = "Tela_Escolha";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

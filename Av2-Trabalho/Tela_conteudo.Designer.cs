@@ -1,6 +1,6 @@
 ﻿namespace Av2_Trabalho
 {
-    partial class Form3
+    partial class Tela_conteudo
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,8 @@
             this.btnGerarNovo = new System.Windows.Forms.Button();
             this.btnAvancar = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCont = new System.Windows.Forms.TextBox();
+            this.lblqnt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnGerarNovo
@@ -42,6 +43,7 @@
             this.btnGerarNovo.TabIndex = 0;
             this.btnGerarNovo.Text = "Gerar conteúdo reduzido ";
             this.btnGerarNovo.UseVisualStyleBackColor = true;
+            this.btnGerarNovo.Click += new System.EventHandler(this.btnGerarNovo_Click);
             // 
             // btnAvancar
             // 
@@ -61,25 +63,36 @@
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCont
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 34);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(526, 261);
-            this.textBox1.TabIndex = 3;
+            this.txtCont.Location = new System.Drawing.Point(21, 34);
+            this.txtCont.Multiline = true;
+            this.txtCont.Name = "txtCont";
+            this.txtCont.Size = new System.Drawing.Size(526, 261);
+            this.txtCont.TabIndex = 3;
             // 
-            // Form3
+            // lblqnt
+            // 
+            this.lblqnt.AutoSize = true;
+            this.lblqnt.Location = new System.Drawing.Point(264, 9);
+            this.lblqnt.Name = "lblqnt";
+            this.lblqnt.Size = new System.Drawing.Size(22, 13);
+            this.lblqnt.TabIndex = 4;
+            this.lblqnt.Text = "qnt";
+            // 
+            // Tela_conteudo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 369);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblqnt);
+            this.Controls.Add(this.txtCont);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAvancar);
             this.Controls.Add(this.btnGerarNovo);
-            this.Name = "Form3";
+            this.Name = "Tela_conteudo";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,6 +103,7 @@
         private System.Windows.Forms.Button btnGerarNovo;
         private System.Windows.Forms.Button btnAvancar;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCont;
+        private System.Windows.Forms.Label lblqnt;
     }
 }
