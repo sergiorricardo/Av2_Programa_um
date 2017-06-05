@@ -17,7 +17,33 @@ namespace Av2_Trabalho
         public bool logado = false;
         private Conecta conn;
         public static SqlConnection ConnectOpen;
+        public void insere() {
 
+
+            StringBuilder sql = new StringBuilder();
+            sql.Append("Insert into conteudos (id, conteudo ) ");
+            sql.Append("Values (@id, @conteudo )");
+            SqlCommand command = null;
+
+
+
+            try
+            {
+                command = new SqlCommand(sql.ToString(), ConnectOpen);
+                command.Parameters.Add(new SqlParameter("@id", lblData.Text));
+                command.Parameters.Add(new SqlParameter("@conteudo", txtArtigo.Text));
+                command.ExecuteNonQuery();
+
+                MessageBox.Show("Cadastrado com sucesso!");
+                Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao cadastrar" + ex);
+
+            }
+
+        }
       
       
 
@@ -43,6 +69,7 @@ namespace Av2_Trabalho
 
         private void btnGerar_Click(object sender, EventArgs e)
         {
+            insere();
             btnSeguinte.Visible = true;
             btnNao.Visible = true;
             lblAvaliarSN.Visible = true;
@@ -50,32 +77,7 @@ namespace Av2_Trabalho
             {
                 MessageBox.Show("Insira algum texto");
             }
-            else  
-            {
-                
-                StringBuilder sql = new StringBuilder();
-                sql.Append("Insert into conteudos (id, conteudo ) ");
-                sql.Append("Values (@id, @conteudo )");
-                SqlCommand command = null;
 
-               
-
-                try
-                {
-                    command = new SqlCommand(sql.ToString(), ConnectOpen);
-                    command.Parameters.Add(new SqlParameter("@id", lblData.Text));
-                    command.Parameters.Add(new SqlParameter("@conteudo", txtArtigo.Text));
-                    command.ExecuteNonQuery();
-
-                    MessageBox.Show("Cadastrado com sucesso!");
-                    Hide();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erro ao cadastrar" + ex);
-                  
-                }
-            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
