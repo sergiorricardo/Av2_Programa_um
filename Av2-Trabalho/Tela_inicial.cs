@@ -16,7 +16,7 @@ namespace Av2_Trabalho
     {
         public bool logado = false;
         private Conecta conn;
-        private SqlConnection ConnectOpen;
+        public static SqlConnection ConnectOpen;
 
       
       
@@ -31,15 +31,28 @@ namespace Av2_Trabalho
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DateTime locaDate = DateTime.Now;
+
+
+
+
+     
+        DateTime locaDate = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time"));
            lblData.Text =Convert.ToString(locaDate) ;
             logado = true;
         }
 
         private void btnGerar_Click(object sender, EventArgs e)
         {
+            btnSeguinte.Visible = true;
+            btnNao.Visible = true;
+            lblAvaliarSN.Visible = true;
+            if (txtArtigo.Text=="")
             {
-               
+                MessageBox.Show("Insira algum texto");
+            }
+            else  
+            {
+                
                 StringBuilder sql = new StringBuilder();
                 sql.Append("Insert into conteudos (id, conteudo ) ");
                 sql.Append("Values (@id, @conteudo )");
@@ -50,7 +63,7 @@ namespace Av2_Trabalho
                 try
                 {
                     command = new SqlCommand(sql.ToString(), ConnectOpen);
-                    command.Parameters.Add(new SqlParameter("@id", DateTime.Now));
+                    command.Parameters.Add(new SqlParameter("@id", lblData.Text));
                     command.Parameters.Add(new SqlParameter("@conteudo", txtArtigo.Text));
                     command.ExecuteNonQuery();
 

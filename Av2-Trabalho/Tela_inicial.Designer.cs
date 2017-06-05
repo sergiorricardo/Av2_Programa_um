@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnGerar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSeguinte = new System.Windows.Forms.Button();
             this.txtArtigo = new System.Windows.Forms.TextBox();
             this.lblEstudante = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -48,15 +48,16 @@
             this.btnGerar.UseVisualStyleBackColor = true;
             this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
-            // button2
+            // btnSeguinte
             // 
-            this.button2.Location = new System.Drawing.Point(544, 131);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "A diante";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSeguinte.Location = new System.Drawing.Point(544, 131);
+            this.btnSeguinte.Name = "btnSeguinte";
+            this.btnSeguinte.Size = new System.Drawing.Size(102, 23);
+            this.btnSeguinte.TabIndex = 1;
+            this.btnSeguinte.Text = "A diante";
+            this.btnSeguinte.UseVisualStyleBackColor = true;
+            this.btnSeguinte.Visible = false;
+            this.btnSeguinte.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtArtigo
             // 
@@ -93,6 +94,7 @@
             this.btnNao.TabIndex = 6;
             this.btnNao.Text = "Agora não";
             this.btnNao.UseVisualStyleBackColor = true;
+            this.btnNao.Visible = false;
             // 
             // lblAvaliarSN
             // 
@@ -102,6 +104,7 @@
             this.lblAvaliarSN.Size = new System.Drawing.Size(103, 13);
             this.lblAvaliarSN.TabIndex = 7;
             this.lblAvaliarSN.Text = "Quer avaliar agora ?";
+            this.lblAvaliarSN.Visible = false;
             // 
             // lblData
             // 
@@ -122,7 +125,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.lblEstudante);
             this.Controls.Add(this.txtArtigo);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSeguinte);
             this.Controls.Add(this.btnGerar);
             this.Name = "Tela_inicial";
             this.Text = "Tela Inicial ";
@@ -135,7 +138,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnGerar;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSeguinte;
         private System.Windows.Forms.TextBox txtArtigo;
         private System.Windows.Forms.Label lblEstudante;
         private System.Windows.Forms.Button btnCancelar;
