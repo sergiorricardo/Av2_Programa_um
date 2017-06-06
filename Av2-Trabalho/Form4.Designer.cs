@@ -30,14 +30,13 @@
         {
             this.btnEntendido = new System.Windows.Forms.Button();
             this.btnConfuso = new System.Windows.Forms.Button();
-            this.btnAvaliar = new System.Windows.Forms.Button();
             this.lblseguinte = new System.Windows.Forms.Label();
             this.lblDataTres = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEntendido
             // 
-            this.btnEntendido.Location = new System.Drawing.Point(89, 280);
+            this.btnEntendido.Location = new System.Drawing.Point(205, 280);
             this.btnEntendido.Name = "btnEntendido";
             this.btnEntendido.Size = new System.Drawing.Size(118, 23);
             this.btnEntendido.TabIndex = 1;
@@ -47,24 +46,13 @@
             // 
             // btnConfuso
             // 
-            this.btnConfuso.Location = new System.Drawing.Point(285, 280);
+            this.btnConfuso.Location = new System.Drawing.Point(467, 280);
             this.btnConfuso.Name = "btnConfuso";
             this.btnConfuso.Size = new System.Drawing.Size(112, 23);
             this.btnConfuso.TabIndex = 2;
             this.btnConfuso.Text = "Conteúdo confuso ";
             this.btnConfuso.UseVisualStyleBackColor = true;
             this.btnConfuso.Click += new System.EventHandler(this.btnConfuso_Click);
-            // 
-            // btnAvaliar
-            // 
-            this.btnAvaliar.Location = new System.Drawing.Point(502, 280);
-            this.btnAvaliar.Name = "btnAvaliar";
-            this.btnAvaliar.Size = new System.Drawing.Size(134, 23);
-            this.btnAvaliar.TabIndex = 4;
-            this.btnAvaliar.Text = "Avaliação de conteúdo ";
-            this.btnAvaliar.UseVisualStyleBackColor = true;
-            this.btnAvaliar.Visible = false;
-            this.btnAvaliar.Click += new System.EventHandler(this.btnAvaliar_Click);
             // 
             // lblseguinte
             // 
@@ -91,7 +79,6 @@
             this.ClientSize = new System.Drawing.Size(705, 333);
             this.Controls.Add(this.lblDataTres);
             this.Controls.Add(this.lblseguinte);
-            this.Controls.Add(this.btnAvaliar);
             this.Controls.Add(this.btnConfuso);
             this.Controls.Add(this.btnEntendido);
             this.Name = "Form4";
@@ -106,7 +93,6 @@
         private System.Windows.Forms.Button btnEntendido;
         private System.Windows.Forms.Button btnConfuso;
         private System.Windows.Forms.Button btnSubmeter;
-        private System.Windows.Forms.Button btnAvaliar;
         private System.Windows.Forms.Label lblseguinte;
         private System.Windows.Forms.Label lblDataTres;
     }

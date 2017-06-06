@@ -18,7 +18,7 @@ namespace Av2_Trabalho
         private Conecta conn;
         public static SqlConnection ConnectOpen;
         public void insere() {
-
+                     botao();
 
             StringBuilder sql = new StringBuilder();
             sql.Append("Insert into conteudos (id, conteudo ) ");
@@ -36,12 +36,22 @@ namespace Av2_Trabalho
 
                 MessageBox.Show("Cadastrado com sucesso!");
                 Hide();
+
+
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao cadastrar" + ex);
 
             }
+
+        }
+        public void botao() {
+            btnSeguinte.Visible = true;
+            btnNao.Visible = true;
+            lblAvaliarSN.Visible = true;
+
 
         }
       
@@ -57,10 +67,6 @@ namespace Av2_Trabalho
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
-
-
      
         DateTime locaDate = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time"));
            lblData.Text =Convert.ToString(locaDate) ;
@@ -69,14 +75,20 @@ namespace Av2_Trabalho
 
         private void btnGerar_Click(object sender, EventArgs e)
         {
-            insere();
-            btnSeguinte.Visible = true;
-            btnNao.Visible = true;
-            lblAvaliarSN.Visible = true;
-            if (txtArtigo.Text=="")
+            
+            if (txtArtigo.Text == "")
             {
                 MessageBox.Show("Insira algum texto");
             }
+            else
+            {
+                insere();
+                var esco = new Tela_Escolha();
+                esco.ShowDialog();
+
+            }
+
+
 
         }
 

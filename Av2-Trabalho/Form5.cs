@@ -53,6 +53,7 @@ namespace Av2_Trabalho
 
         private void btnSubmeter_Click(object sender, EventArgs e)
         {
+
             StringBuilder sql = new StringBuilder();
             sql.Append("Insert into cont (id, avaliacao, pontuacao, argumentacao, desenvoltura, objetividade, organizacao, clareza, roteiro, introducao, tempo_verbal, coerencia, metodologia, vocabulario, conteudo ) ");
             sql.Append("Values (@id, @avaliacao, @pontuacao, @argumentacao, @desenvoltura, @objetividade, @organizacao, @clareza, @roteiro, @introducao, @tempo_verbal, @coerencia, @metodologia, @vocabulario, @conteudo )");
@@ -89,6 +90,8 @@ namespace Av2_Trabalho
                     MessageBox.Show("Cadastrado com sucesso!");
 
                     Hide();
+                    var pri = new Tela_inicial();
+                    pri.ShowDialog();
                 }
             }
             catch (Exception ex)

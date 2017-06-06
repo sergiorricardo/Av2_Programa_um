@@ -59,7 +59,7 @@
             // rdop1
             // 
             this.rdop1.AutoSize = true;
-            this.rdop1.Location = new System.Drawing.Point(34, 13);
+            this.rdop1.Location = new System.Drawing.Point(40, 217);
             this.rdop1.Name = "rdop1";
             this.rdop1.Size = new System.Drawing.Size(60, 17);
             this.rdop1.TabIndex = 2;
@@ -71,7 +71,7 @@
             // rdop2
             // 
             this.rdop2.AutoSize = true;
-            this.rdop2.Location = new System.Drawing.Point(34, 55);
+            this.rdop2.Location = new System.Drawing.Point(165, 217);
             this.rdop2.Name = "rdop2";
             this.rdop2.Size = new System.Drawing.Size(60, 17);
             this.rdop2.TabIndex = 3;
@@ -83,7 +83,7 @@
             // rdop3
             // 
             this.rdop3.AutoSize = true;
-            this.rdop3.Location = new System.Drawing.Point(34, 105);
+            this.rdop3.Location = new System.Drawing.Point(312, 217);
             this.rdop3.Name = "rdop3";
             this.rdop3.Size = new System.Drawing.Size(60, 17);
             this.rdop3.TabIndex = 4;
@@ -95,7 +95,7 @@
             // rdop4
             // 
             this.rdop4.AutoSize = true;
-            this.rdop4.Location = new System.Drawing.Point(34, 160);
+            this.rdop4.Location = new System.Drawing.Point(447, 217);
             this.rdop4.Name = "rdop4";
             this.rdop4.Size = new System.Drawing.Size(60, 17);
             this.rdop4.TabIndex = 5;
@@ -107,7 +107,7 @@
             // rdop5
             // 
             this.rdop5.AutoSize = true;
-            this.rdop5.Location = new System.Drawing.Point(34, 205);
+            this.rdop5.Location = new System.Drawing.Point(591, 217);
             this.rdop5.Name = "rdop5";
             this.rdop5.Size = new System.Drawing.Size(60, 17);
             this.rdop5.TabIndex = 6;

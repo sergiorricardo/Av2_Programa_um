@@ -30,7 +30,6 @@
         {
             this.btnGerarNovo = new System.Windows.Forms.Button();
             this.btnGravarCont = new System.Windows.Forms.Button();
-            this.btnAvanco = new System.Windows.Forms.Button();
             this.txtCont = new System.Windows.Forms.TextBox();
             this.lblqnt = new System.Windows.Forms.Label();
             this.lblData2 = new System.Windows.Forms.Label();
@@ -49,7 +48,7 @@
             // 
             // btnGravarCont
             // 
-            this.btnGravarCont.Location = new System.Drawing.Point(267, 313);
+            this.btnGravarCont.Location = new System.Drawing.Point(437, 314);
             this.btnGravarCont.Name = "btnGravarCont";
             this.btnGravarCont.Size = new System.Drawing.Size(110, 23);
             this.btnGravarCont.TabIndex = 1;
@@ -57,17 +56,6 @@
             this.btnGravarCont.UseVisualStyleBackColor = true;
             this.btnGravarCont.Visible = false;
             this.btnGravarCont.Click += new System.EventHandler(this.btnAvancar_Click);
-            // 
-            // btnAvanco
-            // 
-            this.btnAvanco.Location = new System.Drawing.Point(461, 313);
-            this.btnAvanco.Name = "btnAvanco";
-            this.btnAvanco.Size = new System.Drawing.Size(86, 23);
-            this.btnAvanco.TabIndex = 2;
-            this.btnAvanco.Text = "Avançar";
-            this.btnAvanco.UseVisualStyleBackColor = true;
-            this.btnAvanco.Visible = false;
-            this.btnAvanco.Click += new System.EventHandler(this.btnAvanco_Click);
             // 
             // txtCont
             // 
@@ -112,7 +100,6 @@
             this.Controls.Add(this.lblData2);
             this.Controls.Add(this.lblqnt);
             this.Controls.Add(this.txtCont);
-            this.Controls.Add(this.btnAvanco);
             this.Controls.Add(this.btnGravarCont);
             this.Controls.Add(this.btnGerarNovo);
             this.Name = "Tela_conteudo";
@@ -127,7 +114,6 @@
 
         private System.Windows.Forms.Button btnGerarNovo;
         private System.Windows.Forms.Button btnGravarCont;
-        private System.Windows.Forms.Button btnAvanco;
         private System.Windows.Forms.TextBox txtCont;
         private System.Windows.Forms.Label lblqnt;
         private System.Windows.Forms.Label lblData2;

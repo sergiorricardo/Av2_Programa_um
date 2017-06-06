@@ -85,8 +85,7 @@ namespace Av2_Trabalho
         private void btnAvaliar_Click(object sender, EventArgs e)
         {
             
-            //var avaliar = new Form5(); velho
-            //avaliar.ShowDialog();
+            
 
         }
     }
