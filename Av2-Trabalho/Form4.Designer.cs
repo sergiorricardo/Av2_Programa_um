@@ -83,6 +83,7 @@
             this.lblDataTres.Size = new System.Drawing.Size(35, 13);
             this.lblDataTres.TabIndex = 6;
             this.lblDataTres.Text = "label1";
+            this.lblDataTres.Click += new System.EventHandler(this.lblDataTres_Click);
             // 
             // Form4
             // 
