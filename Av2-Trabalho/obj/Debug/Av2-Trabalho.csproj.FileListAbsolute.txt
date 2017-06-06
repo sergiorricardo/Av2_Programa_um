@@ -54,3 +54,14 @@ C:\GitHub\AV2 Primeira\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form4.resources
 C:\GitHub\AV2 Primeira\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form5.resources
 C:\GitHub\AV2 Primeira\Av2-Trabalho\obj\Debug\Av2_Trabalho.Properties.Resources.resources
 C:\GitHub\AV2 Primeira\Av2-Trabalho\obj\Debug\Av2-Trabalho.csproj.GenerateResource.Cache
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.csprojResolveAssemblyReference.cache
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_inicial.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_Escolha.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_conteudo.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form4.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form5.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Properties.Resources.resources
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.csproj.GenerateResource.Cache
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.exe
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.pdb
+C:\Users\work\Downloads\Av2_Programa_um\Av2-Trabalho\bin\Debug\Av2-Trabalho.exe.config
