@@ -71,11 +71,13 @@
             this.lblDataTres.Size = new System.Drawing.Size(35, 13);
             this.lblDataTres.TabIndex = 6;
             this.lblDataTres.Text = "label1";
+            this.lblDataTres.Click += new System.EventHandler(this.lblDataTres_Click);
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(705, 333);
             this.Controls.Add(this.lblDataTres);
             this.Controls.Add(this.lblseguinte);
