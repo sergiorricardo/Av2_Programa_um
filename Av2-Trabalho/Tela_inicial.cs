@@ -18,7 +18,7 @@ namespace Av2_Trabalho
         private Conecta conn;
         public static SqlConnection ConnectOpen;
         public void insere() {
-                     botao();
+                    
 
             StringBuilder sql = new StringBuilder();
             sql.Append("Insert into conteudos (id, conteudo ) ");
@@ -47,13 +47,7 @@ namespace Av2_Trabalho
             }
 
         }
-        public void botao() {
-            btnSeguinte.Visible = true;
-            btnNao.Visible = true;
-            lblAvaliarSN.Visible = true;
 
-
-        }
       
       
 
@@ -85,6 +79,7 @@ namespace Av2_Trabalho
                 insere();
                 var esco = new Tela_Escolha();
                 esco.ShowDialog();
+                this.Close();
 
             }
 
@@ -104,8 +99,7 @@ namespace Av2_Trabalho
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var esco = new Tela_Escolha();
-            esco.ShowDialog();
+
             
         }
     }

@@ -72,7 +72,7 @@ namespace Av2_Trabalho
                         {
                             ideal(certo);
                             btnGravarCont.Visible = true;
-                            btnAvanco.Visible = true;
+                          
                             Conteudo = txtCont.Text;
                             Horario = lblData2.Text;
                         }
@@ -89,7 +89,7 @@ namespace Av2_Trabalho
                         {
                             ideal(certo);
                             btnGravarCont.Visible = true;
-                            btnAvanco.Visible = true;
+                          
                             Conteudo = txtCont.Text;
                             Horario = lblData2.Text;
                         }
@@ -106,7 +106,7 @@ namespace Av2_Trabalho
                         {
                             ideal(certo);
                             btnGravarCont.Visible = true;
-                            btnAvanco.Visible = true;
+                          
                             Conteudo = txtCont.Text;
                             Horario = lblData2.Text;
                         }
@@ -123,7 +123,7 @@ namespace Av2_Trabalho
                         {
                             ideal(certo);
                             btnGravarCont.Visible = true;
-                            btnAvanco.Visible = true;
+                          
                             Conteudo = txtCont.Text;
                             Horario = lblData2.Text;
                         }
@@ -140,7 +140,7 @@ namespace Av2_Trabalho
                         {
                             ideal(certo);
                             btnGravarCont.Visible = true;
-                            btnAvanco.Visible = true;
+                           
                             Conteudo = txtCont.Text;
                             Horario = lblData2.Text;
                         }
@@ -224,8 +224,6 @@ namespace Av2_Trabalho
             insere();
             var prox = new Form4();
             prox.ShowDialog();
-            //Conteudo = txtCont.Text;
-            // btnAvanco.Visible = true;
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -234,7 +232,6 @@ namespace Av2_Trabalho
             lblData2.Text = Convert.ToString(locaDate);
             opcao(opc1);
             logado = true;
-            //Conteudo = txtCont.Text;
 
         }
     }
