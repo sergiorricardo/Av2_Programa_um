@@ -80,3 +80,16 @@ C:\Users\DAni3L\Documents\Github\Av2_Programa_um2\Av2-Trabalho\bin\Debug\Conexao
 C:\Users\DAni3L\Documents\Github\Av2_Programa_um2\Av2-Trabalho\bin\Debug\Conexao_log.ldf
 C:\Users\DAni3L\Documents\Github\Av2_Programa_um2\Av2-Trabalho\bin\Debug\Av2-Trabalho.exe
 C:\Users\DAni3L\Documents\Github\Av2_Programa_um2\Av2-Trabalho\bin\Debug\Av2-Trabalho.pdb
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\bin\Debug\Av2-Trabalho.exe.config
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.exe
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.pdb
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\bin\Debug\Conexao.mdf
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\bin\Debug\Conexao_log.ldf
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.csprojResolveAssemblyReference.cache
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_inicial.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_Escolha.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Tela_conteudo.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form4.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Form5.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2_Trabalho.Properties.Resources.resources
+C:\Users\Ivan-Lari\Documents\Atividade3\Av2_Programa_um\Av2-Trabalho\obj\Debug\Av2-Trabalho.csproj.GenerateResource.Cache
